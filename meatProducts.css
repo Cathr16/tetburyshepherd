@@ -1,0 +1,130 @@
+
+body {margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+
+  img {width: 100px}
+
+
+  .navbar {
+  background-color:linen;
+padding-bottom: 20px;}
+
+.dropdown{
+  display: inline-block;
+  padding: 0 1250px 0 0
+  ;
+
+}
+
+.meatbanner {
+  position: relative;
+  margin-bottom: 310px;
+}
+
+.meat {
+ opacity: 0.6;
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 400px;
+}
+
+.meatProducts {
+ color: rgb(84, 97, 84);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 1px;
+ position: relative;
+ padding-top: 5px;
+ padding-left: 150px;}
+
+ 
+  
+  
+   h3{text-align: center;
+  color: linen;
+  background-color: linen;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  padding: 15px;
+  }
+  
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    clear: both;
+  }
+
+
+  .logos {
+    position: relative;
+    align-items: right;
+    flex-direction: row;
+  margin-bottom: 0 ;
+  }
+.fblogo{
+  width: 30px;
+  height: 30px;
+}
+
+.instlogo{
+  width: 30px;
+  height: 30px;
+}
+  *{
+    box-sizing: border-box;
+  }
+  .flex-container{
+    padding: 30px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+  }
+  
+  .flex-item{
+    opacity:0.8;
+    padding: 0 5px;
+    width: 100%;
+    margin-bottom: 15px
+   }
+  
+   .flex-item img{
+    width:100%;
+    height: auto;
+   }
+  
+   .flex-item:hover { 
+   opacity: 1;
+   transition:0.9s; 
+   }
+  
+   .desc{
+    padding: 15px;
+    text-align: center;
+   }
+  
+   @media only screen and (min-width: 768px){
+    .flex-item {width: 50%;}
+   }
+  
+   @media only screen and (min-width: 992px){
+    .flex-item {width: 100% / 3;}
+   }
+  
+   @media only screen and (min-width: 1200px){
+    .flex-item {width: 25%;}
+   }
+  
+  .desc {font-size: 20px;}
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    width:100%;
+    background-color:linen;
+  padding: 10px}
